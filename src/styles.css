@@ -14,9 +14,15 @@ body {
   padding: 8px;
   border: 1px solid gray;
   border-radius: 5px;
-  margin: 0px 10px;
+  margin: 10px;
   cursor: pointer;
 }
 .button:hover {
   background-color: lightgreen;
+}
+.button.playing {
+  background-color: lightseagreen;
+}
+.button.playing:hover {
+  background-color: lightyellow;
 }
